@@ -1,0 +1,232 @@
+body {
+    font-family: "Montserrat";
+    text-align: center;
+  }
+
+  .container-fluid{
+    padding: 2% 7%;
+  }
+  p{
+    color: #000;
+  }
+  
+  /* Navigation Bar */
+  
+  #navbar-section{
+    background-color:#2C3639;
+  }
+
+
+  .navbar {
+    padding: 0 0 4.5rem;
+
+  }
+  
+  .navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+     }
+  
+  .nav-item {
+    padding: 0 18px;
+     color: #0E8388;
+  }
+  
+  .nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat-Light";
+    color:dimgrey;
+    
+  }
+  .nav-link:hover{
+   color: red;
+    
+  }
+    
+ /* Fashion section  */
+ #fashion-section{
+  background-color: #9DC08B;
+  height:500px;
+  }
+ #GUCCI{
+  font-weight: bold;
+  position: relative;
+  left:1085px;
+  top:30px;
+  width:min-content;
+ }
+ 
+@media(width<1400px){
+  .gucci-section{
+    position:absolute;
+    right:1500px;
+    top:120px;
+  }
+  #GUCCI{
+    position:absolute;
+    left:175px;
+    top:380px;
+  }
+  .para1{
+    padding-top: 30px;
+  }
+
+}
+
+
+
+
+ .para1{
+  text-align: left;
+  position: relative;
+  left:-10px;
+  top:-10px;
+ }
+.small-circle1{
+  height:150px;
+  width:150px;
+  border:17px solid;
+  color:#000;
+  border-radius:100%;
+  background-color:transparent;
+  position:absolute;
+  left:1150px;
+  top:330px;
+  z-index:0;
+}
+.small-circle2{
+  height:150px;
+  width:150px;
+  border:17px solid;
+  color:#000;
+  border-radius:100%;
+  background-color:transparent;
+  position:absolute;
+  left:1210px;
+  top:330px;
+  z-index:0;
+}
+.rect1{
+  height:20px;
+  width:30px;
+  background-color:#000;
+  position:absolute;
+  left:1220px;
+  top:410px;
+  z-index:0;
+}
+.rect2{
+  height:20px;
+  width:30px;
+  background-color:#000;
+  position:absolute;
+  left:1260px;
+  top:410px;
+  z-index:0;
+}
+.line{
+  height:20px;
+  width:120px;
+  background-color: #9DC08B;
+  position:absolute;
+  left:1195px;
+  top:390px;
+  z-index:1;
+
+}
+
+/* Cars Section */
+.cars-section{
+   background-color:#BBD6B8;
+  height:700px; 
+  /*pexels-yurii-hlei-1545743.jpg*/
+  }
+
+#CARS{
+  color: #000;/*#2B3467;*/
+}
+
+@media(width<1400px){
+  .benz-logo{
+    position:absolute;
+    left:90px;
+    top:280px;
+  }
+  #MERCEDES{
+    padding-left: 80px;  
+  }
+  
+}
+
+
+
+
+
+
+
+
+#MERCEDES{
+  font-weight: bold;
+  position: absolute;
+  left:55px;
+  top:1070px;
+  width:min-content;
+  color:#2E4F4F;
+ }
+
+
+
+
+
+.para2{
+  text-align: right;
+  padding-top:90px;
+}
+
+
+
+
+.benz-logo{
+  height:500px;
+  }
+
+
+.big-circle{
+  height:180px;
+  width:180px;
+  background-color:transparent;
+  border-radius:100%;
+  border:15px solid #1F8A70;
+  position:absolute;
+  left:75px;
+  top:865px;
+}
+
+.line1{
+  height:90px;
+  width:20px;
+  background-color:#1F8A70;
+  position:absolute;
+  top:870px;
+  left:155px; 
+}
+.line2{
+  height:90px;
+  width:20px;
+  background-color:#1F8A70;
+  position:absolute;
+  top:930px;
+  left:120px;
+  transform:rotate(-120deg);
+}
+.line3{
+  height:90px;
+  width:20px;
+  background-color:#1F8A70;
+  position:absolute;
+  top:930px;
+  left:190px;
+  transform:rotate(120deg);
+}
+
